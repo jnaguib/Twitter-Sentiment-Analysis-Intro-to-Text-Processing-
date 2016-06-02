@@ -1,24 +1,24 @@
 This is the project for Intro to Text Processing course. I build a Twitter Sentiment Analyzer which uses either Naive Bayes or SVM.
-The program is trained on a training set of tweets and then it can predict if other tweets are positive/negative/neutral using either of two methods: Naive Bayes or SVM. 
+The program is trained on a training set of tweets and then it can predict if other tweets are positive/negative/neutral using either of two methods: Naive Bayes or SVM.
 The whole process for the project is presented in the report file with the tests and the results.
 
 Different Features implemented in the system:
-	+Type of word:
+	1-Type of word:
 		-Tweet containing positive or negative words (using Building the
 State-of-the-Art in Sentiment Analysis of Tweets data for positive and negative words)
-	+Emoticons:
+	2-Emoticons:
 		-I built a list of emoticons and made each of them either positive or negative
-	+Hashtags:
+	3-Hashtags:
 		-If there are any hashtags in the tweet.
 		-Whether the hashtag is positive or negative.
-	+Existence of Not:
+	4-Existence of Not:
 		-Existence of not changes the tweet from positivity to negativity and vice versa. (not before positive or negative words change their polarity)
-	+Elongated words:
+	5-Elongated words:
 		-If any elongated words exist (only implemented for the beginning and end of the word e.g. helloooo, greattt..etc)
-	+Uppercase words (e.g GREAT, BAD, AWESOME..etc)
-	+User:
+	6-Uppercase words (e.g GREAT, BAD, AWESOME..etc)
+	7-User:
 		-If there are tags in the tweet ('@<user>')
-	+Bag of words:
+	8-Bag of words:
 		-Took all the words as a feature to help predict if the tweet is positive/negative/neutral
 
 # To run the code:
